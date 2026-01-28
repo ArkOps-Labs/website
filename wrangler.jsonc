@@ -1,7 +1,4 @@
 {
-  "name": "arkops-web",
-  "compatibility_date": "2026-01-28",
-  "assets": {
-    "directory": "./"
-  }
+  "name": "arkops",
+  "pages_build_output_dir": "./"
 }
