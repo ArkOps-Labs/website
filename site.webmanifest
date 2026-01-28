@@ -1,0 +1,21 @@
+{
+  "name": "ArkOps — DevOps & Cloud Engineering",
+  "short_name": "ArkOps",
+  "description": "Freelance DevOps & Cloud Engineer. Infrastructure that scales.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#2C366E",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

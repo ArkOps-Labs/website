@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#131320"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- Logo -->
+  <g transform="translate(100, 215)">
+    <rect fill="#2C366E" width="200" height="200" rx="40" ry="40" filter="url(#glow)"/>
+    <g transform="translate(100, 100) scale(5.6) translate(-21.26, -21.26)">
+      <path fill="#a78bfa" d="M13.91,20.52a2.34,2.34,0,0,1,1.72.75h0a.3.3,0,0,0,.08.08l.81.81,3.31-3.31L19,18.05l0,0L19,18l-.09-.09a7.05,7.05,0,0,0-4.95-2h0a2.42,2.42,0,0,0-.36.1,5.41,5.41,0,0,0-3.31,4.6,3.72,3.72,0,0,0,1.41,2.9,2.6,2.6,0,0,1-.07-.56A2.36,2.36,0,0,1,13.91,20.52Z"/>
+      <path fill="#ffffff" d="M34.89,22.08a1.29,1.29,0,0,1,0-2.3.58.58,0,0,0,.3-.68,6.6,6.6,0,0,0-.53-1.29.58.58,0,0,0-.69-.27,1.28,1.28,0,0,1-1.63-1.62.57.57,0,0,0-.26-.69,6.07,6.07,0,0,0-1.29-.54.58.58,0,0,0-.68.3,1.28,1.28,0,0,1-2.3,0,.6.6,0,0,0-.4-.31.54.54,0,0,0-.28,0c-.45.13-1,.17-1.29.54a4,4,0,0,1-1.35,1.15q-.25.11-.51.24l-.05,0a7.2,7.2,0,0,0-1.71,1.26l-.06.07,0,0-1.58,1.57h0l-1.21,1.21-2.1,2.1h0l-1.55,1.55-.06.06a2.34,2.34,0,0,1-1.72.75,4.7,4.7,0,0,1-.39-9.38h0A7,7,0,1,0,19,27.71l1.52-1.52h0l.91-.91,1.62-1.61h0l.78-.79h0c.86-.85,1.54-1.54,1.54-1.54l.06-.06.18-.17a2.3,2.3,0,0,1,1.54-.58,4.69,4.69,0,0,1,4.4,6.34,4.47,4.47,0,0,1-.66,1.19h0l-.19.23a.46.46,0,0,1-.07.07l-.18.2-.1.09-.27.23a1.49,1.49,0,0,1-.2.15l-.13.09a1.64,1.64,0,0,1-.22.14l-.12.07-.08,0,.09-.06.11-.07.15-.11.21-.18.08-.08.14-.15.06-.06.14-.18,0,0a3.87,3.87,0,0,0,.5-.92,3.81,3.81,0,0,0,.23-1.29,5.49,5.49,0,0,0-1.57-3.55,1.09,1.09,0,0,1,0,.18,2.36,2.36,0,0,1-4.08,1.61l0,0-.87-.87-.79.78,0,0-2.5,2.49.82.81a7,7,0,0,0,5.12,2.21h.15l.28,0h.43l.2,0h.12l.31,0h.05a6.09,6.09,0,0,0,.61-.17h.05a6,6,0,0,0,.59-.23l.05,0a5.85,5.85,0,0,0,.56-.28l0,0a5.84,5.84,0,0,0,.53-.33l0,0c2.1-1.4,3.67-4.75,4-5.90A.58.58,0,0,0,34.89,22.08Z"/>
+      <path fill="#ffffff" d="M18.23,16.62a2.33,2.33,0,0,1,0-.38,2.36,2.36,0,0,1,4.72,0,2.33,2.33,0,0,1,0,.38,8.06,8.06,0,0,1,.8-.48l.06,0,.51-.23a3.61,3.61,0,0,0,1.15-1,2.19,2.19,0,0,1,1.29-.65l.29-.08a1.35,1.35,0,0,1,.28,0v0l0-.05a5.77,5.77,0,0,0-.22-.58l0,0c-.09-.19-.18-.38-.28-.56l0,0a5.84,5.84,0,0,0-.33-.53l0,0c-.12-.17-.25-.34-.38-.5l0,0-.42-.46,0,0a6,6,0,0,0-.46-.42l0,0a6,6,0,0,0-.5-.38l0,0L23.88,10h0l-.58-.28h0a6.32,6.32,0,0,0-.61-.22h0a5.26,5.26,0,0,0-.6-.15h-.06c-.22,0-.45-.08-.68-.1h0c-.23,0-.46,0-.7,0a7,7,0,0,0-7,6.07h.54A7.65,7.65,0,0,1,18.23,16.62Z"/>
+    </g>
+  </g>
+  
+  <!-- Text content -->
+  <g transform="translate(380, 240)">
+    <text font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#ffffff">ArkOps</text>
+    <text y="90" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="url(#textGrad)">DevOps &amp; Cloud Engineering</text>
+    <text y="150" font-family="monospace" font-size="22" fill="#6b7280">Kubernetes • Terraform • CI/CD • Cloud Architecture</text>
+    <text y="200" font-family="monospace" font-size="20" fill="#4b5563">📍 Paris, France • 15+ years experience</text>
+  </g>
+  
+  <!-- URL -->
+  <text x="1100" y="590" font-family="monospace" font-size="18" fill="#4b5563" text-anchor="end">arkops.io</text>
+</svg>
